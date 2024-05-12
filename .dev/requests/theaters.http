@@ -1,0 +1,10 @@
+### List
+GET http://localhost:8080/theaters
+
+### Create
+POST http://localhost:8080/theaters
+Content-Type: application/json
+
+{
+ "seats": [[0, 1, 0, 1], [1, 1, 1, 1]]
+}
